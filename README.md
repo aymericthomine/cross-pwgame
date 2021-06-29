@@ -46,11 +46,8 @@ a
 ```
 
 
-## Routes utilisation
+## Screens
 
-|Method	|Route	|Description|
-|-------|------|-----------|
-|GET	| /users | this should respond with a list of all cards.|
-|GET	| /users/:id	| this route should display a single card's found on the database.|
-|POST	| /user | this route should add a new card on the database.|
+![Title](https://i.ibb.co/KV7wH1K/logo.png)
+
 # cross-pwgame
