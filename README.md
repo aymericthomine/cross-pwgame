@@ -49,5 +49,3 @@ a
 ## Screens
 
 ![Title](https://i.ibb.co/KV7wH1K/logo.png)
-
-# cross-pwgame
