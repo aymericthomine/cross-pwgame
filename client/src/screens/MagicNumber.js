@@ -84,7 +84,7 @@ export default function MagicNumber({ navigation }) {
             onChangeText={(text) => setNumber({ value: text, error: '' })}
             autoCapitalize="none"
         />
-        <Button mode="contained" onPress={onSendPressed}>
+        <Button mode="yellow" onPress={onSendPressed}>
             Send
         </Button>
         <Header>{user.name.text}</Header>

@@ -13,9 +13,24 @@ export default function Dashboard({ navigation }) {
   return (
     <Background>
         <Logo />
-        <Header>Let’s start</Header>
+        <Header>Let’s start to play :</Header>
+    
+        <Header></Header>
         <Button
-            mode="outlined"
+        mode="yellow"
+        onPress={() => navigation.navigate('MagicNumber')}
+        >
+            Magic Number
+        </Button>
+        <Button
+        mode="yellow"
+        onPress={() => navigation.navigate('QuickWord')}
+      >
+        Quick Word
+      </Button>
+      <Header></Header>
+      <Button
+            mode="black"
             onPress={() =>
                 navigation.reset({
                     index: 0,
@@ -25,18 +40,6 @@ export default function Dashboard({ navigation }) {
         >
         Logout
         </Button>
-        <Button
-        mode="contained"
-        onPress={() => navigation.navigate('MagicNumber')}
-        >
-            Magic Number
-        </Button>
-        <Button
-        mode="contained"
-        onPress={() => navigation.navigate('QuickWord')}
-      >
-        Quick Word
-      </Button>
     </Background>
   )
 }

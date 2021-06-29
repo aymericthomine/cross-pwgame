@@ -40,7 +40,7 @@ export default function LoginScreen({ navigation }){
                 onChangeText={(text) => setUsername({text})}
                 autoCapitalize="none"
             />
-            <Button mode="contained" onPress={onLoginPressed}>
+            <Button mode="yellow" onPress={onLoginPressed}>
                 Login
             </Button>
         </Background>

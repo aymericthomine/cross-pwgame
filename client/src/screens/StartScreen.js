@@ -12,7 +12,7 @@ export default function StartScreen({ navigation }) {
       <Logo />
       <Header>Welcome</Header>
       <Button
-        mode="contained"
+        mode="yellow"
         onPress={() => navigation.navigate('LoginScreen')}
       >
         Login

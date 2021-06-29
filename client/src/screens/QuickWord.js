@@ -76,7 +76,7 @@ export default function QuickWord({ navigation }) {
             onChangeText={(text) => setWord(text)}
             autoCapitalize="none"
         />
-      <Button mode="contained" onPress={onSendPressed}>
+      <Button mode="yellow" onPress={onSendPressed}>
             Send
         </Button>
         <Header>{user.name.text}</Header>
